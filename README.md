@@ -10,24 +10,23 @@ For remendir, even if provider can see the SSH password used in log, this passwo
 This application is only for Linux requestor.
 
 **Requirements**
+>Yagna requestor
+>
+>System packages:
+>  - openssh-client
+>  - sshpass
+>  - openssl
+>  - websocat
+>  - nodejs
+>
+>Node packages:
+>  - @golem-sdk/golem-js
+>  - commander
 
-  - Yagna requestor
-
-System packages:
-  - openssh-client
-  - sshpass
-  - openssl
-  - websocat
-  - nodejs
-
-Node packages:
-  - @golem-sdk/golem-js
-  - commander
-
-**How to use:**
-``` 
-sudo npm install -g @golem-sdk/golem-js commander
-git clone https://github.com/norbibi/golem_blender_encrypted.git  
-cd golem_blender_encrypted  
-node blender_encrypted.mjs --providerid 0x50a6612d55f95ea34f3f82b189ee33dba34c44c4  
-```
+**How to use**
+>``` 
+>sudo npm install -g @golem-sdk/golem-js commander
+>git clone https://github.com/norbibi/golem_blender_encrypted.git  
+>cd golem_blender_encrypted  
+>node blender_encrypted.mjs --providerid 0x50a6612d55f95ea34f3f82b189ee33dba34c44c4  
+>```
