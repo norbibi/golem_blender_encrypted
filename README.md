@@ -30,3 +30,7 @@ This application is only for Linux requestor.
 >cd golem_blender_encrypted  
 >node blender_encrypted.mjs --providerid 0x50a6612d55f95ea34f3f82b189ee33dba34c44c4  
 >```
+
+<p align="center">
+<img src="blender_encrypted.png" width="100%"> 
+</p>
