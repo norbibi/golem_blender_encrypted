@@ -3,7 +3,7 @@
 The goal of this repository is to show how to send/receive encrypted data to/from a Golem's provider to avoid data leaks.
 
 First, we generate an aes-128 key then send it to the provider via SSH so that the provider cannot intercept it.  
-The data is encrypted and sent to the provider's receiving volume, then moved to RAM and decrypted before calculation (in RAM).  
+Datas are encrypted and sent to the provider's receiving volume, then moved to RAM and decrypted before calculation (in RAM).  
 The result is encrypted and moved to the sending volume for requestor retrieving.  
 
 This application is only for Linux requestor.
